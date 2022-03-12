@@ -79,9 +79,14 @@ Based on the returns of 2017 except TERP every other stock has done reasonably w
 
 Refactoring the code can succeed as the execution time has improved for 2017 and 2018. if we compare the execution time of the original run time to refactored run time, the refactored run time is fast.
 
+### refactored run time:
+
 <img width="253" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/100738688/158028409-2ec957dd-6cf1-4ddf-a148-c905ae8b7011.png">
 <img width="269" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/100738688/158028410-11e86d82-b107-4673-978e-65679fbf5510.png">
 
+### original Run time:
+<img width="263" alt="Screen Shot 2022-03-12 at 12 41 52 PM" src="https://user-imag<img width="257" alt="Screen Shot 2022-03-12 at 12 45 19 PM" src="https://user-images.githubusercontent.com/100738688/158028827-970a6a86-79bf-4f55-8cf8-a81cd65f92a3.png">
+es.githubusercontent.com/100738688/158028790-a340c22a-bde9-4a35-b7a5-d82c315ba351.png">
 
 
 
