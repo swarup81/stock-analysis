@@ -79,7 +79,9 @@ For i = 0 To 11
 Worksheets("All Stocks Analysis").Activate
 
 Cells(4 + i, 1).Value = tickers(i)
+
 Cells(4 + i, 2).Value = TickerVolumes(i)
+
 Cells(4 + i, 3).Value = TickerEndingPrices(i) / TickerStartingPrices(i) - 1
         
 Next i
