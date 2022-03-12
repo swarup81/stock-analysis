@@ -78,8 +78,11 @@ Based on the returns of 2017 except TERP every other stock has done reasonably w
 ### execution time:
 
 Refactoring the code can succeed as the execution time has improved for 2017 and 2018. if we compare the execution time of the original run time to refactored run time, the refactored run time is fast.
+[original2 2.png.zip](https://github.com/swarup81/stock-analysis/files/8238033/original2.2.png.zip)
 
 
+
+[original2.png.zip](https://github.com/swarup81/stock-analysis/files/8238032/original2.png.zip)
 
 
 
