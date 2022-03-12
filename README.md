@@ -8,6 +8,7 @@ The purpose of this challenge is to refactor the VBA code to loop through all th
 ## Analysis:
 Before refactoring the code, I downloaded the challenge_starter_code.vbs file, neatly written and the steps I needed to add, tickerindex, create output arrays, use nested for loops, and if statements. By writing the code and activating the worksheet, we have refactored the code, and we can now measure the performance of both years and check the script run time. 
 Below is the refactored code is written in the file.
+
  '1a) Create a ticker Index
  tickerIndex = 0
 
@@ -61,10 +62,19 @@ Cells(4 + i, 1).Value = tickers(i)
 Cells(4 + i, 2).Value = TickerVolumes(i)
 Cells(4 + i, 3).Value = TickerEndingPrices(i) / TickerStartingPrices(i) - 1
         
-Next i
+Next <img width="356" alt="Screen Shot 2022-03-12 at 12 01 43 PM" src="https://user-images.githubusercontent.com/100738688/158027591-49d7e1f6-ba65-485b-b349-0a270d2b83c3.png">
+i
+<img width="668" alt="Screen Shot 2022-03-12 at 12 01 02 PM" src="https://user-images.githubusercontent.com/100738688/158027595-4909730c-97d1-4e98-8304-1481b618a315.png">
+<img width="484" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/100738688/158027598-85d7129e-d0fb-42ef-97c7-7d9825c0f731.png">
+<img width="554" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/100738688/158027603-56d3c8af-6367-465c-b7ad-4cbefcd27f23.png">
+
 ### compare stock performance b/w 2017 and 2018:
 Based on the returns of 2017 except TERP every other stock has done reasonably well. But in 2018, it only did well. Suppose we consider that only 2 of the 12 stocks, ENPH AND RUN, have positive results in both years. Based on the performance of ENPH AND RUN, he can suggest his parents invest in these stocks. 
+<img width="458" alt="Screen Shot 2022-03-12 at 11 08 16 AM" src="https://user-images.githubusercontent.com/100738688/158027557-1b168ecc-97e8-4acc-910c-ac96484ed9af.png">
+<img width="418" alt="Screen Shot 2022-03-12 at 11 06 02 AM" src="https://user-images.githubusercontent.com/100738688/158027564-23288301-0c9d-49d5-a62a-03676d864056.png">
+
 ### execution time:
+
 Refactoring the code can succeed as the execution time has improved for 2017 and 2018. if we compare the execution time of the original run time to refactored run time, the refactored run time is fast.
 # summary:
 ## Advantages :
