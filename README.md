@@ -62,15 +62,34 @@ Cells(4 + i, 1).Value = tickers(i)
 Cells(4 + i, 2).Value = TickerVolumes(i)
 Cells(4 + i, 3).Value = TickerEndingPrices(i) / TickerStartingPrices(i) - 1
         
-Next 
+Next i
+
 ### compare stock performance b/w 2017 and 2018:
 Based on the returns of 2017 except TERP every other stock has done reasonably well. But in 2018, it only did well. Suppose we consider that only 2 of the 12 stocks, ENPH AND RUN, have positive results in both years. Based on the performance of ENPH AND RUN, he can suggest his parents invest in these stocks. 
-<img width="458" alt="Screen Shot 2022-03-12 at 11 08 16 AM" src="https://user-images.githubusercontent.com/100738688/158027557-1b168ecc-97e8-4acc-910c-ac96484ed9af.png">
+
+<img width="458" alt="Screen Shot 2022-03-12 at 11 08 16 AM" src="https://user-images.githubusercontent.com/100738688/158027710-8c95f316-1729-43cd-91c4-c186a1dd5c32.png">
+
+<img width="418" alt="Screen Shot 2022-03-12 at 11 06 02 AM" src="https://user-images.githubusercontent.com/100738688/158027713-1369d609-0af4-41b9-b2b7-776313718fb9.png">
+
+
+
 
 
 ### execution time:
 
 Refactoring the code can succeed as the execution time has improved for 2017 and 2018. if we compare the execution time of the original run time to refactored run time, the refactored run time is fast.
+
+<img width="668" alt="Screen Shot 2022-03-12 at 12 01 02 PM" src="https://user-images.githubusercontent.com/100738688/158027720-1d1895da-0ad9-41f6-b532-89ecd8bc238d.png">
+
+<img width="356" alt="Screen Shot 2022-03-12 at 12 01 43 PM" src="https://user-images.githubusercontent.com/100738688/158027725-6bf42d4f-3960-4ac2-882a-c016c2bf746b.png">
+
+<img width="484" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/100738688/158027734-08707e0d-3752-47ab-91fe-9c5212556324.png">
+
+<img width="554" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/100738688/158027738-2ba33111-a6bb-4f8e-9084-0a7992acaedf.png">
+
+
+
+
 # summary:
 ## Advantages :
 The considerable advantage of refactoring the code decreases the run time in executing the project. Decreased execution is always efficient when analyzing thousands of rows of data.
